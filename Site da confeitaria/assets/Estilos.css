@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    background-color:blanchedalmond;
+}
+
+body {color:black}
+
+header{
+    background-color:pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 24px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color:blue;
+    font-weight: 600;
+    padding: 0 32px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: pink
+}
+
+
+
+h1 {
+    color:blue;
+    font: size 100%;
+    font-weight: 10;
+    background-color: pink;
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color:blue;
+    font: size 100px;
+    font-weight: 50px;
+    background-color: pink;
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+h3 {
+    color:blue;
+    font: size 100px;
+    font-weight: 100px;
+    background-color: pink;
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+
+h4 {
+    color:blue;
+    font: size 100px;
+    font-weight: 100px;
+    background-color: pink;
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.paragrafo {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    z-index: -10;
+}
+
+.botao{
+    background-color:pink;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.meio {
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    padding-right: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.meio img {
+    width: 350px;
+    height: auto;
+}
+
+.container-text {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background: antiquewhite;
+}
+
+.texto-rolando {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translatex(100%);
+    }
+    100% {
+        transform: translatex(-100);
+    }
+}
+
+footer {
+    background-color: antiquewhite;
+    display: flex;
+    gap: 80px;
+    padding: 70px 80px;
+    justify-content: space-between;
+}
+
+footer nav a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+footer div a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+footer nav a:hover {
+    font-weight: 600;
+}
+
+footer p a:hover {
+    font-weight: 600;
+} 
