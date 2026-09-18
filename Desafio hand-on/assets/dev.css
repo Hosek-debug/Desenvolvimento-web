@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    background-color:rgb(110, 110, 183);
+}
+
+body {color:black}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 24px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+header a {
+    background-color: whitesmoke;
+    font-weight: 600;
+    padding: 0 42px;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
